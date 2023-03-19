@@ -1,0 +1,44 @@
+{
+  "name": "lesson38",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "watch": "cross-env NODE_ENV=development --mode development --watch",
+    "start": " webpack serve --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamik-w/Lesson-38-Study-space-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamik-w/Lesson-38-Study-space-/issues"
+  },
+  "homepage": "https://github.com/Tamik-w/Lesson-38-Study-space-#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.3",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.12.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "terser-webpack-plugin": "^5.3.7"
+  }
+}
